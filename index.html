@@ -2,28 +2,35 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Contador</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contador de dias</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="container">
-    <h1 class="Titulo">Contador de dias vivos</h1>
+    <h1 class="titulo">Contador de dias vivos</h1>
     <p>Utilize o contador abaixo para ver quantos dias você está vivo.</p>
-    <input type="date" id="dataNascimento">
-    <button id="btnCalcular" class="btn">ENVIAR</button>
+
+    <div class="input-container">
+      <input type="date" id="dataNascimento" />
+    </div>
+
+    <div class="botoes">
+      <button id="btnCalcular" class="btn">ENVIAR</button>
+      <button id="btnResetar" class="btn">RESETAR</button>
+    </div>
+
     <p class="contador"></p>
     <p id="restantes"></p>
+
     <div class="barra-container">
       <div id="barraProgresso"></div>
     </div>
   </div>
 
-
-  <script src="script.js">
-  </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
