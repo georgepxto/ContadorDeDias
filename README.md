@@ -1,0 +1,2 @@
+# ContadorDeDias
+Desenvolvimento de um contador de dias, que calcula e exibe o número de dias vividos desde a data de nascimento do usuário. A interface será projetada com foco em uma experiência visual moderna e intuitiva, utilizando CSS para garantir um design elegante e responsivo. O objetivo é criar uma ferramenta simples, mas eficaz, que apresente os resultados de forma clara, destacando a interação do usuário de maneira visualmente atraente.
