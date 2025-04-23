@@ -23,7 +23,7 @@ function iniciarContador() {
   const totalSegundos = horas * 3600;
   const agora = Date.now();
 
-  // Salvar no localStorage
+
   localStorage.setItem("dataNascimento", input.value);
   localStorage.setItem("inicioContador", agora);
   localStorage.setItem("totalSegundos", totalSegundos);
